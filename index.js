@@ -49,8 +49,8 @@ Client.on("message", message => {
             .setURL("https://google.com")
             .setDescription("**Recherche commandes de bobooy (FunBox)**")
             .setThumbnail("https://cdn.discordapp.com/attachments/944332184196636704/946140501952839680/bobooy.png")
-//- ban moi : vous expulse\n - &pouf : suprime le salon\n - &paf : tue un membre aléatoire\n - &sus : among us
-            .addField('__User Commande__', '- &ban moi : Vous ban\n - &kick moi : Vous expulse\n- &sus : AMONG US\n', false)
+//- ban moi : vous expulse\n \n - &sus : among us
+            .addField('__User Commande__', '- &ban moi : Vous ban\n - &kick moi : Vous expulse\n- &sus : AMONG US\n- &shrek : 🎵Somebody Once🎵\n- &pee : 🐸\n- &bus : Cour Vite!!\n- &bulle : POP\n- &ass : 👐\n- &gun : PAN💥\n- &rock : THE ROCK🪨\n- &russe : ☭☭☭\n- &russe : ☭☭☭\n- &nitro : Nitro Gratuit 😱\n- &rick : Never Gonna Give You Up 🎤\n', false)
             .setFooter({ text: 'Bobooy Commande V1', iconURL: 'https://cdn.discordapp.com/attachments/944332184196636704/946140501952839680/bobooy.png' })
             .setTimestamp();
             message.channel.send({embeds : [embed]});
@@ -122,7 +122,7 @@ Client.on("messageCreate", message => {
                    membertarger.kick();
                }, 5000);
                setTimeout(() => {
-                membertarger.send('si tu veut revenir : https://discord.gg/kczFE3Aa');
+                membertarger.send('si tu veut aller dans bon serveur : https://discord.gg/YJraXgqB');
             }, 4900);
            }
        }
