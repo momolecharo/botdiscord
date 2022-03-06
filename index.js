@@ -127,6 +127,34 @@ Client.on("messageCreate", message => {
            }
        }
    }
+    
+   
+    if (message.content === prefix + "BMB"){
+    const member = message.member;
+    const perm = message.member.permissions.has("ADMINISTRATOR");
+    {
+        if(member && perm){
+            setTimeout(() => {
+                message.channel.send("destruction dans :");
+            }, 1000);
+            setTimeout(() => {
+                message.channel.send("3");
+            }, 1500);
+            setTimeout(() => {
+                message.channel.send("2");
+            }, 2000);
+             setTimeout(() => {
+                message.channel.send("1");
+            }, 3000);
+            setTimeout(() => {
+                message.channel.send("Stresse pas Je rigole");
+            }, 3500);
+            setTimeout(() => {
+                message.channel.send("https://tenor.com/view/lol-laughing-hysterically-laughing-out-loud-funny-steve-carell-gif-22904325");
+            }, 5000);
+        }
+    }
+
 
     if (message.content === prefix + "ban moi"){
          const member = message.member;
